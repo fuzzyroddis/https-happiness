@@ -8,7 +8,8 @@ Packages
 
 * NodeJS
 * NPM
-* `npm install cheerio request webshot phantomjs`
+* `npm install cheerio request capture`
+* `apt-get install phantomjs`
 
 Notes
 -----

@@ -1,5 +1,6 @@
 #!/usr/bin/nodejs
-//npm install https
+//npm install https webshot
+//apt-get install phantomjs
 function save() {
 	fs = require('fs');
 	fs.writeFile("https.txt", JSON.stringify(hosts), function (err) {
@@ -15,8 +16,7 @@ hosts = []; //array for hosts
 fs = require('fs');
 url = require("url");
 var https = require('https');
-//var webshot = require('webshot');
-//var capture = require('capture');
+var webshot = require('webshot');
 
 fs.readFile('urls.txt', function (error, data) {
 	if(!error)
@@ -44,16 +44,13 @@ fs.readFile('urls.txt', function (error, data) {
 				httpImage = 'data/screenshots/http/'+urlParts.host+'.png';
 				httpsImage = 'data/screenshots/https/'+urlParts.host+'.png';
 
-				/*webshot(item.url, httpImage, function(err) {
+				webshot(item.url, httpImage, {'phantomPath' : '/usr/bin/phantomjs'}, function(err) {
 				  console.log(err);
 				});
 
-				webshot(httpsUrl, httpsImage, function(err) {
+				webshot(httpsUrl, httpsImage, {'phantomPath' : '/usr/bin/phantomjs'}, function(err) {
 				  console.log(err);
-				});*/
-
-			  	/*capture([item.url], { out: httpImage }, function (err) {console.log(err);});
-			  	capture([httpsUrl], { out: httpsImage }, function (err) {});*/
+				});
 
 			    list.push({'url'		: item.url,
 			    		  'https'		: httpsUrl,
