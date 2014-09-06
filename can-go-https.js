@@ -9,14 +9,32 @@ function save() {
 		else
 			console.log("+https.txt")
 	});
+
+	fs.writeFile("done.txt", JSON.stringify(done), function (err) {
+		if(err)
+			console.log("ERROR: Could not write to done.txt");
+		else
+			console.log("+done.txt")
+	});
 }
 
 hosts = []; //array for hosts
+done = []; //array for jobs already done
 
 fs = require('fs');
 url = require("url");
 var https = require('https');
 var webshot = require('webshot');
+
+fs.readFile("done.txt", function (error, data) {
+	if(!error)
+	{
+		list = JSON.parse(data.toString());
+		list.forEach(function (item) {
+			done.push(item.url);
+		});
+	}
+}
 
 fs.readFile('urls.txt', function (error, data) {
 	if(!error)
@@ -55,7 +73,7 @@ fs.readFile('urls.txt', function (error, data) {
 				  console.log(err);
 				});
 
-			    list.push({'url'		: item.url,
+			    hosts.push({'url'		: item.url,
 			    		  'https'		: httpsUrl,
 			    		  //'length'		: d.length(),
 			    		  'httpcapture'	: httpImage,
@@ -64,12 +82,15 @@ fs.readFile('urls.txt', function (error, data) {
 			    		  'department'	: item.department
 			    });
 
+			    done.push({'url' : item.url});
+
 			    //console.log(httpsUrl);
 
 			    save();
 
 			}).on('error', function(e) {
 			  //console.error(e);
+			  done.push({'url' : item.url});
 			});
 			})(item); //closure?
 		});

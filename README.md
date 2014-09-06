@@ -6,12 +6,10 @@ Goal is to add all Australian government sites to HTTPS Everywhere.
 Packages
 --------
 
-* NodeJS
-* NPM
+* `apt-get install nodejs npm phantomjs`
 * `npm install cheerio request webshot`
-* `apt-get install phantomjs`
 
 Notes
 -----
 * On debian based systems you'll need to `ln -s nodejs node` in /usr/bin
-* Script uses a lot of memory
+* Script uses a lot of memory, so you'll need to keep running till it finishes
