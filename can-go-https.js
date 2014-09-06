@@ -44,11 +44,14 @@ fs.readFile('urls.txt', function (error, data) {
 				httpImage = 'data/screenshots/http/'+urlParts.host+'.png';
 				httpsImage = 'data/screenshots/https/'+urlParts.host+'.png';
 
+				//**todo** if not exists
 				webshot(item.url, httpImage, {'phantomPath' : '/usr/bin/phantomjs'}, function(err) {
+				  console.log(item.url);
 				  console.log(err);
 				});
 
 				webshot(httpsUrl, httpsImage, {'phantomPath' : '/usr/bin/phantomjs'}, function(err) {
+				  console.log(httpsUrl);
 				  console.log(err);
 				});
 
