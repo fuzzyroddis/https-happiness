@@ -23,17 +23,6 @@ function save() {
 	});
 }
 
-//This won't work as it's async
-fs.readFile("done.txt", function (error, data) {
-	if(!error)
-	{
-		list = JSON.parse(data.toString());
-		list.forEach(function (item) {
-			done.push(item.url);
-		});
-	}
-});
-
 fs.readFile('urls.txt', function (error, data) {
 	if(!error)
 	{

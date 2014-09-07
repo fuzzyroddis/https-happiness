@@ -11,20 +11,6 @@ Array.prototype.diff = function(a) {
 urls = [];
 done = [];
 
-fs.readFile("urls.txt", function (error, data) {
-	if(!error)
-	{
-		list = JSON.parse(data.toString());
-		list.forEach(function (item) {
-			urls.push(item.url);
-		});
-	}
-	else
-	{
-		console.log(error);
-	}
-});
-
 fs.readFile("done.txt", function (error, data) {
 	if(!error)
 	{
@@ -32,13 +18,27 @@ fs.readFile("done.txt", function (error, data) {
 		list.forEach(function (item) {
 			done.push(item.url);
 		});
+
+		fs.readFile("urls.txt", function (error, data) {
+			if(!error)
+			{
+				list = JSON.parse(data.toString());
+				list.forEach(function (item) {
+					urls.push(item.url);
+				});
+
+				console.log(urls.length);
+				console.log(done.length);
+				console.log(urls.diff(done));
+			}
+			else
+			{
+				console.log(error);
+			}
+		});
 	}
 	else
 	{
 		console.log(error);
 	}
 });
-
-console.log(urls.length);
-console.log(done.length);
-console.log(urls.diff(done));
