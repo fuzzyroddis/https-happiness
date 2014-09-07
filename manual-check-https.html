@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTTPS Happiness</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<table id="sites">
+	<thead>
+	<th>Site Name</th><th>URL</th>
+	</thead>
+	<tbody>
+	</tbody>
+	</table>
+
+	<script type="text/javascript">
+	$.getJSON( "https.txt",
+	    function( json ) {
+	        $.each(json.data.soon, function () {
+	            //create row
+	            row  = $("<tr></tr>");
+
+	            link = $("<a></a>").text(this.https);
+	            link.attr("href", this.https); //yes it could contain javascript: but I'm running this all in vm and I have limited time.
+
+	            $("<td></td>").text(this.page_title).appendTo(row);
+	            $("<td></td>").append(link).appendTo(row);
+
+	            //Append it
+	            $("table#sites > tbody:last").append(row);
+	        });
+	    }
+	);
+	</script>
+</body>
+</html>

@@ -8,6 +8,13 @@ Array.prototype.diff = function(a) {
     return this.filter(function(i) {return a.indexOf(i) < 0;});
 };
 
+var arrayUnique = function(a) {
+    return a.reduce(function(p, c) {
+        if (p.indexOf(c) < 0) p.push(c);
+        return p;
+    }, []);
+};
+
 urls = [];
 done = [];
 
@@ -27,8 +34,8 @@ fs.readFile("done.txt", function (error, data) {
 					urls.push(item.url);
 				});
 
-				console.log(urls.length);
-				console.log(done.length);
+				console.log(arrayUnique(urls).length);
+				console.log(arrayUnique(done).length);
 				console.log(urls.diff(done));
 			}
 			else
