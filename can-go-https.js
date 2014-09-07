@@ -23,6 +23,7 @@ function save() {
 	});
 }
 
+//This won't work as it's async
 fs.readFile("done.txt", function (error, data) {
 	if(!error)
 	{
@@ -71,6 +72,7 @@ fs.readFile('urls.txt', function (error, data) {
 				}).on('error', function(e) {
 				  //console.error(e);
 				  done.push({'url' : item.url});
+				  save();
 				});
 			}
 			})(item); //closure?
