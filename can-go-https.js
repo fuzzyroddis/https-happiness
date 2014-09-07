@@ -1,6 +1,5 @@
 #!/usr/bin/nodejs
-//npm install https webshot
-//apt-get install phantomjs
+//npm install https
 function save() {
 	fs = require('fs');
 	fs.writeFile("https.txt", JSON.stringify(hosts), function (err) {
@@ -24,7 +23,6 @@ done = []; //array for jobs already done
 fs = require('fs');
 url = require("url");
 var https = require('https');
-var webshot = require('webshot');
 
 fs.readFile("done.txt", function (error, data) {
 	if(!error)
@@ -57,21 +55,6 @@ fs.readFile('urls.txt', function (error, data) {
 				/* Don't forget to handle redirects especially https->http */
 
 			  	httpsUrl = 'https://'+urlParts.host+urlParts.path;
-			  	//Take a screenshot
-
-				httpImage = 'data/screenshots/http/'+urlParts.host+'.png';
-				httpsImage = 'data/screenshots/https/'+urlParts.host+'.png';
-
-				//**todo** if not exists
-				webshot(item.url, httpImage, {'phantomPath' : '/usr/bin/phantomjs'}, function(err) {
-				  console.log(item.url);
-				  console.log(err);
-				});
-
-				webshot(httpsUrl, httpsImage, {'phantomPath' : '/usr/bin/phantomjs'}, function(err) {
-				  console.log(httpsUrl);
-				  console.log(err);
-				});
 
 			    hosts.push({'url'		: item.url,
 			    		  'https'		: httpsUrl,
