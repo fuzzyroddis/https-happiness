@@ -1,7 +1,13 @@
 #!/usr/bin/nodejs
-//npm install https
+
+hosts = []; //array for hosts
+done = []; //array for jobs already done
+
+var fs = require('fs');
+var url = require("url");
+var https = require('https');
+
 function save() {
-	fs = require('fs');
 	fs.writeFile("https.txt", JSON.stringify(hosts), function (err) {
 		if(err)
 			console.log("ERROR: Could not write to https.txt");
@@ -17,13 +23,6 @@ function save() {
 	});
 }
 
-hosts = []; //array for hosts
-done = []; //array for jobs already done
-
-fs = require('fs');
-url = require("url");
-var https = require('https');
-
 fs.readFile("done.txt", function (error, data) {
 	if(!error)
 	{
@@ -32,7 +31,7 @@ fs.readFile("done.txt", function (error, data) {
 			done.push(item.url);
 		});
 	}
-}
+});
 
 fs.readFile('urls.txt', function (error, data) {
 	if(!error)
@@ -40,41 +39,40 @@ fs.readFile('urls.txt', function (error, data) {
 		list = JSON.parse(data.toString());
 		list.forEach(function (item) {
 			(function (item) {
-			var urlParts = url.parse(item.url);
+			if(done.indexOf(item.url) == -1)
+			{
+				var urlParts = url.parse(item.url);
 
-			var options = {
-			  hostname: urlParts.host,
-			  port: 443,
-			  path: urlParts.path,
-			  method: 'GET'
-			};
+				var options = {
+				  hostname: urlParts.host,
+				  port: 443,
+				  path: urlParts.path,
+				  method: 'GET'
+				};
 
-			https.get(options, function(res) {
-				//console.log("statusCode: ", res.statusCode);
-				//console.log("headers: ", res.headers);
-				/* Don't forget to handle redirects especially https->http */
+				https.get(options, function(res) {
 
-			  	httpsUrl = 'https://'+urlParts.host+urlParts.path;
+				  	httpsUrl = 'https://'+urlParts.host+urlParts.path;
 
-			    hosts.push({'url'		: item.url,
-			    		  'https'		: httpsUrl,
-			    		  //'length'		: d.length(),
-			    		  'httpcapture'	: httpImage,
-			    		  'httpscapture': httpsImage,
-			    		  'page_title'	: item.page_title,
-			    		  'department'	: item.department
-			    });
+				    hosts.push({'url'		: item.url,
+				    		  'https'		: httpsUrl,
+				    		  'page_title'	: item.page_title,
+				    		  'department'	: item.department,
+				    		  'status_code'	: res.statusCode,
+				    		  'headers'		: res.headers
+				    });
 
-			    done.push({'url' : item.url});
+				    done.push({'url' : item.url});
 
-			    //console.log(httpsUrl);
+				    //console.log(httpsUrl);
 
-			    save();
+				    save();
 
-			}).on('error', function(e) {
-			  //console.error(e);
-			  done.push({'url' : item.url});
-			});
+				}).on('error', function(e) {
+				  //console.error(e);
+				  done.push({'url' : item.url});
+				});
+			}
 			})(item); //closure?
 		});
 		save();

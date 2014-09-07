@@ -1,18 +1,14 @@
 https-happiness
 ===============
 
-Goal is to add all Australian government sites to HTTPS Everywhere.
+Goal is to add all Australian government sites to [HTTPS Everywhere](https://www.eff.org/https-everywhere).
 
-Packages
+Setup
 --------
 
-* `apt-get install nodejs npm phantomjs`
-* `npm install cheerio request webshot`
-
-Notes
------
-* On debian based systems you'll need to `ln -s nodejs node` in /usr/bin
-* Script uses a lot of memory, so you'll need to keep running till it finishes
+* I used [Digital Ocean](https://www.digitalocean.com/?refcode=2f68bde48289)'s 512mb droplet with Ubuntu 14.04 x64.
+* `apt-get install nodejs npm`
+* `npm install cheerio request`
 
 Production Quality?
 -------------------
