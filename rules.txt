@@ -1,0 +1,29 @@
+//Don't forget my.gov and the rest of those services
+Energy Made Easy | (www\.)energymadeeasy.gov.au -> https://www.energymadeeasy.gov.au
+(www\.)employment.gov.au -> https://www.employment.gov.au
+(www\.)ausaid.govspace.gov.au -> https://ausaid.govspace.gov.au //www has cert error
+(www\.)nehta.gov.au -> https://www.nehta.gov.au
+(www\.)data.gov.au -> https://www.data.gov.au
+(www\.)dfrdb.gov.au -> https://www.dfrdb.gov.au
+milemployers.comsuper.gov.au -> https://milemployers.comsuper.gov.au //www doesn't exist
+//www.defencejobs.gov.au supports https but redirects to http
+(www\.)dha.gov.au -> https://dha.gov.au //https://www redirects to http://www.
+//https://www.defencereservessupport.gov.au/ (and $) 404, but http don't
+(www\.)cadetnet.gov.au -> https://www.cadetnet.gov.au //https?://$ doesn't work
+//https://aifs.govspace.gov.au https redirects to http
+//https://www.aifs.govspace.gov.au/ bad cert, https://aifs.govspace.gov.au/ mixed active content
+(www\.)cert.gov.au -> https://www.cert.gov.au (https://cert.gov.au has a bad cert)
+//www.beyondblue.org.au https redirects to http
+(www\.)budd-e.staysmartonline.gov.au -> https://budd-e.staysmartonline.gov.au //www. timesout
+(www\.)staysmartonline.gov.au -> https://www.staysmartonline.gov.au //$ has cert error
+(www\.)bundanon.com.au -> https://www.bundanon.com.au
+(www\.)cleanenergyfinancecorp.com.au -> https://www.cleanenergyfinancecorp.com.au //$ has bad cert
+(www\.)bitre.gov.au -> https://www.bitre.gov.au
+//austrade.gov.au bad cert, www redirects to http
+(www\.)abr.business.gov.au -> https://abr.business.gov.au //www. cert error
+(www\.)accesstojustice.gov.au -> https://www.accesstojustice.gov.au // / redircts to http://../Pages/default.aspx but https://.../Pages/default.aspx works fine
+(www\.)agedcarecomplaints.govspace.gov.au -> https://agedcarecomplaints.govspace.gov.au //*.govspace.gov.au is a wildcard cert
+//www.ahm.com.au redirects to http
+(www\.)asada.govspace.gov.au -> https://asada.govspace.gov.au
+(www\.)govdex.gov.au -> https://govdex.gov.au //www redirects to $
+//www.ga.gov.au redirects to http
