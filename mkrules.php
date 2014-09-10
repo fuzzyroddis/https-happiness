@@ -21,7 +21,7 @@ function process_line($line)
 				$line, $matches);
 	list(, $NAME, $PATTERN, $wild, $HOST, $REWRITE) = $matches;
 
-	$rule = "<ruleset name="{$NAME}">\r\n  <target host="{$HOST}" />";
+	$rule = "<ruleset name=\"{$NAME}\">\r\n  <target host=\"{$HOST}\" />";
 
 	if($wild)
 	{
@@ -36,7 +36,7 @@ function process_line($line)
 
 	$rule += "\r\n  <rule from=\"^http://{$PATTERN}/\" to=\"{$REWRITE}/\"/>\r\n</ruleset>";
 
-	$filename = preg_replace("/[^a-zA-Z0-9\-\_\.]/", '', $filename);
+	$filename = preg_replace("/[^a-zA-Z0-9\-\_\.]/", '', $NAME);
 
 	file_put_contents($filename, 'rules/'.$rule);
 }
