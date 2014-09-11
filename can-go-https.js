@@ -46,7 +46,7 @@ fs.readFile('urls.txt', function (error, data) {
 
 				    hosts.push({'url'		: item.url,
 				    		  'https'		: httpsUrl,
-				    		  'host'		: urlParts.host
+				    		  'host'		: urlParts.host,
 				    		  'page_title'	: item.page_title,
 				    		  'department'	: item.department,
 				    		  'status_code'	: res.statusCode,
