@@ -4,11 +4,16 @@
 	<meta charset="utf-8">
 	<title>HTTPS Happiness</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<style type="text/css">
+	.rule {
+		font-weight: bold;
+	}
+	</style>
 </head>
 <body>
 	<table id="sites">
 	<thead>
-	<th>Site Name</th><th>URL</th>
+	<th>URL</th><th>Name</th><th>Filename</th><th>Host</th><th>From</th><th>To</th>
 	</thead>
 	<tbody>
 	</tbody>
@@ -19,14 +24,21 @@
 	    function( json ) {
 	        $.each(json, function () {
 	            //create row
+	            rule = this.page_title
 	            row  = $("<tr></tr>");
 
 	            link = $("<a></a>").text(this.https);
 	            link.attr("href", this.https); //yes it could contain javascript: but I'm running this all in vm and I have limited time.
 
-	            $("<td></td>").text(this.page_title).appendTo(row);
 	            $("<td></td>").append(link).appendTo(row);
-
+	            $('<td class="rule"></td>').text(this.page_title).appendTo(row);
+	            filename = this.page_title.replace(/[^a-zA-Z0-9\-\_\.]/, '');
+	            $('<td class="rule"></td>').text(filename).appendTo(row);
+	            $('<td class="rule"></td>').text(this.host).appendTo(row);
+	            from = 'http://(?:www\\.)' + host + '/';
+	            $('<td class="rule"></td>').text(to).appendTo(row);
+	            to = 'https://www.' + host + '/';
+	            $('<td class="rule"></td>').text(from).appendTo(row);
 	            //Append it
 	            $("table#sites > tbody:last").append(row);
 	        });
