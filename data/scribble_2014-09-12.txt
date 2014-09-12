@@ -1,0 +1,206 @@
+Done	URL	Name	Filename	Host	From	To	
+X	https://ablis.business.gov.au/	BusinessAU	BusinessAU	ablis.business.gov.au	http://(?:www\.)ablis.business.gov.au/	https://ablis.business.gov.au/	
+X	https://abr.business.gov.au/	BusinessAU	BusinessAU	abr.business.gov.au	http://(?:www\.)abr.business.gov.au/	https://abr.business.gov.au/	
+X	https://abr.gov.au/	Australian Business Register	AustralianBusinessRegister	abr.gov.au	http://(?:www\.)abr.gov.au/	https://abr.gov.au/	
+HTTP	https://aciarblog.blogspot.com.au/	Australian Centre for International Agricultural Research (ACIAR)		aciarblog.blogspot.com.au	http://(?:www\.)aciarblog.blogspot.com.au/	https://aciarblog.blogspot.com.au/	
+X	https://aei.gov.au/	Australian Education International	AustralianEducationInternational	aei.gov.au	http://(?:www\.)aei.gov.au/	https://aei.gov.au/	
+G	https://agedcarecomplaints.govspace.gov.au/	Aged Care Complaints Scheme News	AgedCareComplaintsScheme	agedcarecomplaints.govspace.gov.au	http://(?:www\.)agedcarecomplaints.govspace.gov.au/	https://agedcarecomplaints.govspace.gov.au/	
+G|MIX	https://aifs.govspace.gov.au/	CFCA Connect		aifs.govspace.gov.au	http://(?:www\.)aifs.govspace.gov.au/	https://aifs.govspace.gov.au/	
+G	https://asada.govspace.gov.au/	Australian Sports Anti-Doping Authority	ASADA	asada.govspace.gov.au	http://(?:www\.)asada.govspace.gov.au/	https://asada.govspace.gov.au/	
+X	https://asbestossafety.gov.au/	Asbestos Safety and Eradication Agency	AsbestosSafetyandEradicationAgency	asbestossafety.gov.au	http://(?:www\.)asbestossafety.gov.au/	https://asbestossafety.gov.au/	
+404	https://asiancentury.dpmc.gov.au/	Australia in the Asian Century		asiancentury.dpmc.gov.au	http://(?:www\.)asiancentury.dpmc.gov.au/	https://asiancentury.dpmc.gov.au/	
+HTTP	https://at-ease.dva.gov.au/	At Ease		at-ease.dva.gov.au	http://(?:www\.)at-ease.dva.gov.au/	https://at-ease.dva.gov.au/	
+G	https://ausaid.govspace.gov.au/	AusAid		ausaid.govspace.gov.au	http://(?:www\.)ausaid.govspace.gov.au/	https://ausaid.govspace.gov.au/	
+HTTP	https://auspost.com.au/	Australia Post	AustraliaPost	auspost.com.au	http://(?:www\.)auspost.com.au/	https://auspost.com.au/	
+X	https://australia-unsc.gov.au/	Australia: Candidate for the United Nations Security Council 2013-14	AustraliaUNSC	australia-unsc.gov.au	http://(?:www\.)australia-unsc.gov.au/	https://australia-unsc.gov.au/	
+NOTE	https://blogs.csiro.au/	blogs@CSIRO	CSIRO	blogs.csiro.au	http://(?:www\.)blogs.csiro.au/	https://blogs.csiro.au/	Mixed is just a font
+X	https://budd-e.staysmartonline.gov.au/index.html	Budd:e Cybersecurity Builder	StaySmartOnline	budd-e.staysmartonline.gov.au	http://(?:www\.)budd-e.staysmartonline.gov.au/	https://budd-e.staysmartonline.gov.au/	
+X	https://data.aad.gov.au/	Australian Antarctic Data Centre	AustralianAntarcticDataCentre	data.aad.gov.au	http://(?:www\.)data.aad.gov.au/	https://data.aad.gov.au/	
+X	https://data.gov.au/	data.gov.au	DataGovAU	data.gov.au	http://(?:www\.)data.gov.au/	https://data.gov.au/	
+G	https://dosomethingreal.govspace.gov.au/	Do something real		dosomethingreal.govspace.gov.au	http://(?:www\.)dosomethingreal.govspace.gov.au/	https://dosomethingreal.govspace.gov.au/	
+DUPE	https://employment.gov.au/experience			employment.gov.au	http://(?:www\.)employment.gov.au/	https://employment.gov.au/	
+DUPE	https://employment.gov.au/indigenous-cadetship-support-ics	Indigenous Cadetship Support		employment.gov.au	http://(?:www\.)employment.gov.au/	https://employment.gov.au/	
+DUPE	https://employment.gov.au/occupational-health-and-safety-harmonisation	Occupational health and safety harmonisation		employment.gov.au	http://(?:www\.)employment.gov.au/	https://employment.gov.au/	
+MIX	https://heritage-week.govspace.gov.au/	Australian Heritage Week		heritage-week.govspace.gov.au	http://(?:www\.)heritage-week.govspace.gov.au/	https://heritage-week.govspace.gov.au/	
+G	https://homelessnessclearinghouse.govspace.gov.au/	Australian Homelessness Clearinghouse	AustralianHomelessnessClearinghouse	homelessnessclearinghouse.govspace.gov.au	http://(?:www\.)homelessnessclearinghouse.govspace.gov.au/	https://homelessnessclearinghouse.govspace.gov.au/	
+X	https://hrep.nhmrc.gov.au/	Human Research Ethics Portal	HumanResearchEthicsPortal	hrep.nhmrc.gov.au	http://(?:www\.)hrep.nhmrc.gov.au/	https://hrep.nhmrc.gov.au/	
+DUPE	https://innovation.govspace.gov.au/category/innovation-showcase/	Innovation showcase		innovation.govspace.gov.au	http://(?:www\.)innovation.govspace.gov.au/	https://innovation.govspace.gov.au/	
+DUPE	https://innovation.govspace.gov.au/blog/	Public Sector Innovation blog		innovation.govspace.gov.au	http://(?:www\.)innovation.govspace.gov.au/	https://innovation.govspace.gov.au/	
+G	https://innovation.govspace.gov.au/	Public Sector Innovation Toolkit	PublicSectorInnovationToolkit	innovation.govspace.gov.au	http://(?:www\.)innovation.govspace.gov.au/	https://innovation.govspace.gov.au/	
+X	https://insolvencynotices.asic.gov.au/	Insolvency notices	ASIC	insolvencynotices.asic.gov.au	http://(?:www\.)insolvencynotices.asic.gov.au/	https://insolvencynotices.asic.gov.au/	
+X	https://invest.dha.gov.au/	Defence Housing Australia (residential property investment)	DefenceHousingAustralia	invest.dha.gov.au	http://(?:www\.)invest.dha.gov.au/	https://invest.dha.gov.au/	
+X	https://learning.ausport.gov.au/	Australian Sports Commission Learning Portal	AustralianSportsCommissionLearningPortal	learning.ausport.gov.au	http://(?:www\.)learning.ausport.gov.au/	https://learning.ausport.gov.au/	
+HTTP	https://lobbyists.pmc.gov.au/	Australian Government Lobbyists Register		lobbyists.pmc.gov.au	http://(?:www\.)lobbyists.pmc.gov.au/	https://lobbyists.pmc.gov.au/	
+X	https://mhsa.aihw.gov.au/	Mental health services in Australia	MentalHealthServicesinAustralia	mhsa.aihw.gov.au	http://(?:www\.)mhsa.aihw.gov.au/	https://mhsa.aihw.gov.au/	
+DUPE	https://ministers.education.gov.au/pyne	Minister for Education		ministers.education.gov.au	http://(?:www\.)ministers.education.gov.au/	https://ministers.education.gov.au/	
+DUPE	https://ministers.education.gov.au/ryan	Parliamentary Secretary to the Minister for Education		ministers.education.gov.au	http://(?:www\.)ministers.education.gov.au/	https://ministers.education.gov.au/	
+DUPE	https://ministers.education.gov.au/ley	Assistant Minister for Education		ministers.education.gov.au	http://(?:www\.)ministers.education.gov.au/	https://ministers.education.gov.au/	
+DUPE	https://ministers.employment.gov.au/hartsuyker	Assistant Minister for Employment		ministers.employment.gov.au	http://(?:www\.)ministers.employment.gov.au/	https://ministers.employment.gov.au/	
+DUPE	https://ministers.employment.gov.au/abetz	Minister for Employment		ministers.employment.gov.au	http://(?:www\.)ministers.employment.gov.au/	https://ministers.employment.gov.au/	
+G	https://mtpc.govspace.gov.au/	Maritime Travellers Processing Committee (MTPC)		mtpc.govspace.gov.au	http://(?:www\.)mtpc.govspace.gov.au/	https://mtpc.govspace.gov.au/	
+G|MIX	https://nccgr.govspace.gov.au/home/	National Coordinating Committee for Government Radiocommunications		nccgr.govspace.gov.au	http://(?:www\.)nccgr.govspace.gov.au/	https://nccgr.govspace.gov.au/	
+G	https://ndoch.govspace.gov.au/	National Disability Organisations&apos; Clearinghouse		ndoch.govspace.gov.au	http://(?:www\.)ndoch.govspace.gov.au/	https://ndoch.govspace.gov.au/	
+X	https://outreach.atnf.csiro.au/	Australia Telescope Outreach and Education	CISRO	outreach.atnf.csiro.au	http://(?:www\.)outreach.atnf.csiro.au/	https://outreach.atnf.csiro.au/	
+X	https://prisms.deewr.gov.au/Logon/Logon.aspx	Provider Registration and International Students Management System	DEEWR	prisms.deewr.gov.au	http://(?:www\.)prisms.deewr.gov.au/	https://prisms.deewr.gov.au/	
+HTTP	https://recollections.nma.gov.au/	Recollections: a journal of museums and collections		recollections.nma.gov.au	http://(?:www\.)recollections.nma.gov.au/	https://recollections.nma.gov.au/	
+G	https://resilientcommunities.govspace.gov.au/	Resilient Communities		resilientcommunities.govspace.gov.au	http://(?:www\.)resilientcommunities.govspace.gov.au/	https://resilientcommunities.govspace.gov.au/	
+X	https://ret.cleanenergyregulator.gov.au/	Clean Energy Regulator	CleanEnergyRegulator	ret.cleanenergyregulator.gov.au	http://((?:www|ret)\.)?cleanenergyregulator.gov.au/	https://$1cleanenergyregulator.gov.au/	
+G	https://ruralchampions.govspace.gov.au/	Rural health &#x2013; a life changing difference		ruralchampions.govspace.gov.au	http://(?:www\.)ruralchampions.govspace.gov.au/	https://ruralchampions.govspace.gov.au/	
+X	https://schools.aemi.edu.au/	Disaster resilience education for schools	AEMI	schools.aemi.edu.au	http://(?:www\.)schools.aemi.edu.au/	https://schools.aemi.edu.au/	
+HTTP	https://shapeup.gov.au/	Shape Up Australia		shapeup.gov.au	http://(?:www\.)shapeup.gov.au/	https://shapeup.gov.au/	
+G	https://skillselect.govspace.gov.au/	SkillSelect Support		skillselect.govspace.gov.au	http://(?:www\.)skillselect.govspace.gov.au/	https://skillselect.govspace.gov.au/	
+X	https://theaustralianalps.wordpress.com/	Australian Alps National Parks	AustralianAlpsNationalParks	theaustralianalps.wordpress.com	http://(?:www\.)theaustralianalps.wordpress.com/	https://theaustralianalps.wordpress.com/	
+MIX	https://training.gov.au/	Training.gov.au		training.gov.au	http://(?:www\.)training.gov.au/	https://training.gov.au/	
+X	https://www.aacqa.gov.au/	Australian Aged Care Quality Agency	AACQA	www.aacqa.gov.au	http://(?:www\.)www.aacqa.gov.au/	https://www.aacqa.gov.au/	
+HTTP	https://www.aao.gov.au/	Australian Astronomical Observatory	AustralianAstronomicalObservatory	www.aao.gov.au	http://(?:www\.)www.aao.gov.au/	https://www.aao.gov.au/	
+X	https://www.accc.gov.au/	Australian Competition and Consumer Commission (ACCC)	AustralianCompetitionandConsumerCommissionACCC	www.accc.gov.au	http://(?:www\.)www.accc.gov.au/	https://www.accc.gov.au/	
+X	https://www.accesstojustice.gov.au/	Access to Justice	AccesstoJustice	www.accesstojustice.gov.au	http://(?:www\.)www.accesstojustice.gov.au/	https://www.accesstojustice.gov.au/	
+X	https://www.ada.edu.au/	Australian Data Archive (ADA)	AustralianDataArchiveADA	www.ada.edu.au	http://(?:www\.)www.ada.edu.au/	https://www.ada.edu.au/	
+NOTES	https://www.aecl.org/	Australian Egg Corporation Ltd	AustralianEggCorporationLtd	www.aecl.org	http://(?:www\.)www.aecl.org/	https://www.aecl.org/	Only a font blocked
+X	https://www.aedc.gov.au/	Australian Early Development Census (AEDC)	AustralianEarlyDevelopmentCensusAEDC	www.aedc.gov.au	http://(?:www\.)www.aedc.gov.au/	https://www.aedc.gov.au/	
+X	https://www.aer.gov.au/	Australian Energy Regulator (AER)	AustralianEnergyRegulatorAER	www.aer.gov.au	http://(?:www\.)www.aer.gov.au/	https://www.aer.gov.au/	
+X	https://www.afsa.gov.au/	Australian Financial Security Authority	AustralianFinancialSecurityAuthority	www.afsa.gov.au	http://(?:www\.)www.afsa.gov.au/	https://www.afsa.gov.au/	
+MIX	https://www.aftrs.edu.au/	Australian Film Television and Radio School (AFTRS)	AustralianFilmTelevisionandRadioSchoolAFTRS	www.aftrs.edu.au	http://(?:www\.)www.aftrs.edu.au/	https://www.aftrs.edu.au/	
+X	https://www.ag.gov.au/	Attorney-General&apos;s Department (AG)	Attorney-GeneralapossDepartmentAG	www.ag.gov.au	http://(?:www\.)www.ag.gov.au/	https://www.ag.gov.au/	
+HTTP	https://www.ahm.com.au/	ahm - Health Insurance	ahm-HealthInsurance	www.ahm.com.au	http://(?:www\.)www.ahm.com.au/	https://www.ahm.com.au/	
+X	https://www.ahpra.gov.au/	Australian Health Practitioner Regulation Agency (AHPRA)	AustralianHealthPractitionerRegulationAgencyAHPRA	www.ahpra.gov.au	http://(?:www\.)www.ahpra.gov.au/	https://www.ahpra.gov.au/	
+DUPE	https://www.aifs.gov.au/cfca/	Child Family Community Australia		www.aifs.gov.au	http://(?:www\.)www.aifs.gov.au/	https://www.aifs.gov.au/	
+DUPE	https://www.aifs.gov.au/acssa/	Australian Centre for the Study of Sexual Assault (ACSSA)		www.aifs.gov.au	http://(?:www\.)www.aifs.gov.au/	https://www.aifs.gov.au/	
+HTTP	https://www.aifs.gov.au/	Australian Institute of Family Studies (AIFS)		www.aifs.gov.au	http://(?:www\.)www.aifs.gov.au/	https://www.aifs.gov.au/	
+HTTP	https://www.aihw.gov.au/	Australian Institute of Health and Welfare (AIHW)		www.aihw.gov.au	http://(?:www\.)www.aihw.gov.au/	https://www.aihw.gov.au/	
+MIX	https://www.airforce.gov.au/	Royal Australian Air Force	RoyalAustralianAirForce	www.airforce.gov.au	http://(?:www\.)www.airforce.gov.au/	https://www.airforce.gov.au/	
+MIX	https://www.ala.org.au/	Atlas of Living Australia	AtlasofLivingAustralia	www.ala.org.au	http://(?:www\.)www.ala.org.au/	https://www.ala.org.au/	
+X	https://www.alrc.gov.au/	Australian Law Reform Commission (ALRC)	AustralianLawReformCommission	www.alrc.gov.au	http://(?:www\.)www.alrc.gov.au/	https://www.alrc.gov.au/	
+X	https://www.amsa.gov.au/	Australian Maritime Safety Authority	AustralianMaritimeSafetyAuthority	www.amsa.gov.au	http://(?:www\.)www.amsa.gov.au/	https://www.amsa.gov.au/	
+DUPE	https://www.anbg.gov.au/gardens	Australian National Botanic Gardens (ANBG)		www.anbg.gov.au	http://(?:www\.)www.anbg.gov.au/	https://www.anbg.gov.au/	
+X	https://www.anbg.gov.au/	"Australian plants, botany and horticulture"	Australianplantsbotanyandhorticulture	www.anbg.gov.au	http://(?:www\.)www.anbg.gov.au/	https://www.anbg.gov.au/	
+HTTP	https://www.ansto.gov.au/	Australian Nuclear Science and Technology Organisation	AustralianNuclearScienceandTechnologyOrganisation	www.ansto.gov.au	http://(?:www\.)www.ansto.gov.au/	https://www.ansto.gov.au/	
+HTTP	https://www.aph.gov.au/	Parliament of Australia	ParliamentofAustralia	www.aph.gov.au	http://(?:www\.)www.aph.gov.au/	https://www.aph.gov.au/	
+DUPE	https://www.aph.gov.au/About_Parliament/House_of_Representatives	Parliament of Australia. House of Representatives		www.aph.gov.au	http://(?:www\.)www.aph.gov.au/	https://www.aph.gov.au/	
+DUPE	https://www.aph.gov.au/About_Parliament/Senate	Parliament of Australia. Senate		www.aph.gov.au	http://(?:www\.)www.aph.gov.au/	https://www.aph.gov.au/	
+DUPE	https://www.aph.gov.au/News_and_Events/Watch_Parliament	Watch parliament		www.aph.gov.au	http://(?:www\.)www.aph.gov.au/	https://www.aph.gov.au/	
+DUPE	https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Department_of_Parliamentary_Services	Department of Parliamentary Services		www.aph.gov.au	http://(?:www\.)www.aph.gov.au/	https://www.aph.gov.au/	
+DUPE	https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Department_of_the_House_of_Representatives	Department of the House of Representatives		www.aph.gov.au	http://(?:www\.)www.aph.gov.au/	https://www.aph.gov.au/	
+DUPE	https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Department_of_the_Senate	Department of the Senate		www.aph.gov.au	http://(?:www\.)www.aph.gov.au/	https://www.aph.gov.au/	
+404	https://www.apra.gov.au/	Australian Prudential Regulation Authority	AustralianPrudentialRegulationAuthority	www.apra.gov.au	http://(?:www\.)www.apra.gov.au/	https://www.apra.gov.au/	
+X	https://www.apsjobs.gov.au/	APSjobs	APSjobs	www.apsjobs.gov.au	http://(?:www\.)www.apsjobs.gov.au/	https://www.apsjobs.gov.au/	
+X	https://www.asada.gov.au/	Australian Sports Anti-Doping Authority (ASADA)	ASADA	www.asada.gov.au	http://(?:www\.)www.asada.gov.au/	https://www.asada.gov.au/	
+X	https://www.asic.gov.au/	Australian Securities and Investments Commission	ASIC	www.asic.gov.au	http://(?:www\.)www.asic.gov.au/	https://www.asic.gov.au/	
+MIX	https://www.asio.gov.au/	Australian Security Intelligence Organisation (ASIO)	AustralianSecurityIntelligenceOrganisation	www.asio.gov.au	http://(?:www\.)www.asio.gov.au/	https://www.asio.gov.au/	
+X	https://www.aspi.org.au/	Australian Strategic Policy Institute (ASPI)	AustralianStrategicPolicyInstitute	www.aspi.org.au	http://(?:www\.)www.aspi.org.au/	https://www.aspi.org.au/	
+X	https://www.atnf.csiro.au/	Australia Telescope National Facility	AustraliaTelescopeNationalFacility	www.atnf.csiro.au	http://(?:www\.)www.atnf.csiro.au/	https://www.atnf.csiro.au/	
+X	https://www.ato.gov.au/	Australian Taxation Office (ATO)	AustralianTaxationOffice	www.ato.gov.au	http://(?:www\.)www.ato.gov.au/	https://www.ato.gov.au/	
+X	https://www.atsb.gov.au/	Australian Transport Safety Bureau	AustralianTransportSafetyBureau	www.atsb.gov.au	http://(?:www\.)www.atsb.gov.au/	https://www.atsb.gov.au/	
+X	https://www.ausgovboards.gov.au/	Australian Government Boards	AustralianGovernmentBoards	www.ausgovboards.gov.au	http://(?:www\.)www.ausgovboards.gov.au/	https://www.ausgovboards.gov.au/	
+DUPE	https://www.ausport.gov.au/ais	Australian Institute of Sport (AIS)		www.ausport.gov.au	http://(?:www\.)www.ausport.gov.au/	https://www.ausport.gov.au/	
+MIX	https://www.ausport.gov.au/	Australian Sports Commission (ASC)	AustralianSportsCommission	www.ausport.gov.au	http://(?:www\.)www.ausport.gov.au/	https://www.ausport.gov.au/	
+DUPE	https://www.austrade.gov.au/Austrade-BCA-Home/	Business Club Australia		www.austrade.gov.au	http://(?:www\.)www.austrade.gov.au/	https://www.austrade.gov.au/	
+X	https://www.austrade.gov.au/	Austrade (Australian Trade Commission)	Austrade	www.austrade.gov.au	http://(?:www\.)www.austrade.gov.au/	https://www.austrade.gov.au/	
+DUPE	https://www.austrade.gov.au/Buy	Australian Trade Commission - Doing business with Australia		www.austrade.gov.au	http://(?:www\.)www.austrade.gov.au/	https://www.austrade.gov.au/	
+X	https://www.australianclinicaltrials.gov.au/	Australian Clinical Trials	AustralianClinicalTrials	www.australianclinicaltrials.gov.au	http://(?:www\.)www.australianclinicaltrials.gov.au/	https://www.australianclinicaltrials.gov.au/	
+X	https://www.avo.gov.au/	Australian Valuation Office (AVO)	AustralianValuationOffice	www.avo.gov.au	http://(?:www\.)www.avo.gov.au/	https://www.avo.gov.au/	
+X	https://www.awm.gov.au/	Australian War Memorial (AWM)	AustralianWarMemorial	www.awm.gov.au	http://(?:www\.)www.awm.gov.au/	https://www.awm.gov.au/	
+HTTP	https://www.beyondblue.org.au/	Beyondblue: the national depression initiative		www.beyondblue.org.au	http://(?:www\.)www.beyondblue.org.au/	https://www.beyondblue.org.au/	
+X	https://www.bitre.gov.au/	"Bureau of Infrastructure, Transport and Regional Economics"	BureauofInfrastructureTransportandRegionalEconomics	www.bitre.gov.au	http://(?:www\.)www.bitre.gov.au/	https://www.bitre.gov.au/	
+X	https://www.bundanon.com.au/	Bundanon Trust	BundanonTrust	www.bundanon.com.au	http://(?:www\.)www.bundanon.com.au/	https://www.bundanon.com.au/	
+X	https://www.cadetnet.gov.au/	Cadetnet (Australian Defence Force Cadets)	CadetnetAustralianDefenceForceCadets	www.cadetnet.gov.au	http://(?:www\.)www.cadetnet.gov.au/	https://www.cadetnet.gov.au/	
+MIX	https://www.cert.gov.au/	CERT Australia	CERTAustralia	www.cert.gov.au	http://(?:www\.)www.cert.gov.au/	https://www.cert.gov.au/	
+X	https://www.cgc.gov.au/	Commonwealth Grants Commission (CGC)	CommonwealthGrantsCommission	www.cgc.gov.au	http://(?:www\.)www.cgc.gov.au/	https://www.cgc.gov.au/	
+X	https://www.cleanenergyfinancecorp.com.au/	Clean Energy Finance Corporation	CleanEnergyFinanceCorporation	www.cleanenergyfinancecorp.com.au	http://(?:www\.)www.cleanenergyfinancecorp.com.au/	https://www.cleanenergyfinancecorp.com.au/	
+X	https://www.coag.gov.au/	Council of Australian Governments (COAG)	CouncilofAustralianGovernments	www.coag.gov.au	http://(?:www\.)www.coag.gov.au/	https://www.coag.gov.au/	
+X	https://www.comcourts.gov.au/	Commonwealth Courts Portal	CommonwealthCourtsPortal	www.comcourts.gov.au	http://(?:www\.)www.comcourts.gov.au/	https://www.comcourts.gov.au/	
+X	https://www.comsuper.gov.au/	ComSuper	ComSuper	www.comsuper.gov.au	http://(?:www\.)www.comsuper.gov.au/	https://www.comsuper.gov.au/	
+X	https://www.creativepartnershipsaustralia.org.au/	Creative Partnerships Australia	CreativePartnershipsAustralia	www.creativepartnershipsaustralia.org.au	http://(?:www\.)www.creativepartnershipsaustralia.org.au/	https://www.creativepartnershipsaustralia.org.au/	
+X	https://www.crimecommission.gov.au/	Australian Crime Commission (ACC)	AustralianCrimeCommission	www.crimecommission.gov.au	http://(?:www\.)www.crimecommission.gov.au/	https://www.crimecommission.gov.au/	
+X	https://www.csc.gov.au/	Commonwealth Superannuation Corporation (CSC)	CommonwealthSuperannuationCorporationCSC	www.csc.gov.au	http://(?:www\.)www.csc.gov.au/	https://www.csc.gov.au/	
+HTTP	https://www.csiro.au/org/ET	CSIRO Energy Technology		www.csiro.au	http://(?:www\.)www.csiro.au/	https://www.csiro.au/	
+HTTP	https://www.csiro.au/	CSIRO		www.csiro.au	http://(?:www\.)www.csiro.au/	https://www.csiro.au/	
+X	https://www.css.gov.au/	Commonwealth Superannuation Scheme (CSS)	CommonwealthSuperannuationScheme	www.css.gov.au	http://(?:www\.)www.css.gov.au/	https://www.css.gov.au/	
+HTTP	https://www.defencejobs.gov.au/	Defence Jobs	DefenceJobs	www.defencejobs.gov.au	http://(?:www\.)www.defencejobs.gov.au/	https://www.defencejobs.gov.au/	
+404	https://www.defencereservessupport.gov.au/	Defence Reserves Support	DefenceReservesSupport	www.defencereservessupport.gov.au	http://(?:www\.)www.defencereservessupport.gov.au/	https://www.defencereservessupport.gov.au/	
+X	https://www.dfat.gov.au/	Department of Foreign Affairs and Trade (DFAT)	DepartmentofForeignAffairsandTrade	www.dfat.gov.au	http://(?:www\.)www.dfat.gov.au/	https://www.dfat.gov.au/	
+X	https://www.dfrdb.gov.au/	Defence Force Retirement and Death Benefits Scheme (DFRDB)	DefenceForceRetirementandDeathBenefitsSchemeDFRDB	www.dfrdb.gov.au	http://(?:www\.)www.dfrdb.gov.au/	https://www.dfrdb.gov.au/	
+X	https://www.dha.gov.au/	Defence Housing Australia (DHA)	DefenceHousingAustralia	www.dha.gov.au	http://(?:www\.)www.dha.gov.au/	https://www.dha.gov.au/	
+X	https://www.donotcall.gov.au/	Do Not Call Register	DoNotCallRegister	www.donotcall.gov.au	http://(?:www\.)www.donotcall.gov.au/	https://www.donotcall.gov.au/	
+X	https://www.dpmc.gov.au/	Department of the Prime Minister and Cabinet	DPMC	www.dpmc.gov.au	http://(?:www\.)www.dpmc.gov.au/	https://www.dpmc.gov.au/	
+DUPE	https://www.dpmc.gov.au/ministers/index.cfm	Minister for Indigenous Affairs		www.dpmc.gov.au	http://(?:www\.)www.dpmc.gov.au/	https://www.dpmc.gov.au/	
+HTTP	https://www.dsd.gov.au/	Defence Signals Directorate	DefenceSignalsDirectorate	www.dsd.gov.au	http://(?:www\.)www.dsd.gov.au/	https://www.dsd.gov.au/	
+X	https://www.education.gov.au/	Department of Education	DepartmentofEducation	www.education.gov.au	http://(?:www\.)www.education.gov.au/	https://www.education.gov.au/	
+X	https://www.em.gov.au/	Australian Emergency Management	AustralianEmergencyManagement	www.em.gov.au	http://(?:www\.)www.em.gov.au/	https://www.em.gov.au/	
+X	https://www.employment.gov.au/	Department of Employment	DepartmentofEmployment	www.employment.gov.au	http://((?:www|ministers)\.)?employment.gov.au/	https://$1employment.gov.au/	
+X	https://www.energymadeeasy.gov.au/	Energy Made Easy	EnergyMadeEasy	www.energymadeeasy.gov.au	http://(?:www\.)www.energymadeeasy.gov.au/	https://www.energymadeeasy.gov.au/	
+X	https://www.exportawards.gov.au/	Australian Export Awards	AustralianExportAwards	www.exportawards.gov.au	http://(?:www\.)www.exportawards.gov.au/	https://www.exportawards.gov.au/	
+X	https://www.fairwork.gov.au/	Fair Work Ombudsman	FairWorkOmbudsman	www.fairwork.gov.au	http://(?:www\.)www.fairwork.gov.au/	https://www.fairwork.gov.au/	
+403	https://www.firsthome.gov.au/	First Home Owner Grant		www.firsthome.gov.au	http://(?:www\.)www.firsthome.gov.au/	https://www.firsthome.gov.au/	
+403	https://www.frdc.com.au/	Fisheries Research and Development Corporation		www.frdc.com.au	http://(?:www\.)www.frdc.com.au/	https://www.frdc.com.au/	
+X	https://www.fwc.gov.au/	Fair Work Commission	FairWorkCommission	www.fwc.gov.au	http://(?:www\.)www.fwc.gov.au/	https://www.fwc.gov.au/	
+HTTP	https://www.ga.gov.au/	Geoscience Australia	GeoscienceAustralia	www.ga.gov.au	http://(?:www\.)www.ga.gov.au/	https://www.ga.gov.au/	
+404	https://www.gbrmpa.gov.au/	Great Barrier Reef Marine Park Authority		www.gbrmpa.gov.au	http://(?:www\.)www.gbrmpa.gov.au/	https://www.gbrmpa.gov.au/	
+X	https://www.gg.gov.au/	Governor-General of the Commonwealth of Australia	Governor-GeneraloftheCommonwealthofAustralia	www.gg.gov.au	http://(?:www\.)www.gg.gov.au/	https://www.gg.gov.au/	
+X	https://www.gitc.finance.gov.au/	Commonwealth GITC	CommonwealthGITC	www.gitc.finance.gov.au	http://(?:www\.)www.gitc.finance.gov.au/	https://www.gitc.finance.gov.au/	
+X	https://www.govdex.gov.au/	GovDex	GovDex	www.govdex.gov.au	http://(?:www\.)www.govdex.gov.au/	https://www.govdex.gov.au/	
+X	https://www.grdc.com.au/	Grains Research and Development Corporation	GrainsResearchandDevelopmentCorporation	www.grdc.com.au	http://(?:www\.)www.grdc.com.au/	https://www.grdc.com.au/	
+X	https://www.greenvehicleguide.gov.au/	Green Vehicle Guide	GreenVehicleGuide	www.greenvehicleguide.gov.au	http://(?:www\.)www.greenvehicleguide.gov.au/	https://www.greenvehicleguide.gov.au/	
+X	https://www.healthdirect.gov.au/	healthdirect Australia	healthdirectAustralia	www.healthdirect.gov.au	http://(?:www\.)www.healthdirect.gov.au/	https://www.healthdirect.gov.au/	
+X	https://www.humanrights.gov.au/	Australian Human Rights Commission	AustralianHumanRightsCommission	www.humanrights.gov.au	http://(?:www\.)www.humanrights.gov.au/	https://www.humanrights.gov.au/	
+DUPE	https://www.immi.gov.au/Work/Pages/SkillSelect/SkillSelect.aspx	SkillSelect		www.immi.gov.au	http://(?:www\.)www.immi.gov.au/	https://www.immi.gov.au/	
+NOTE	https://www.immi.gov.au/	Department of Immigration and Border Protection	DepartmentofImmigrationandBorderProtection	www.immi.gov.au	http://(?:www\.)www.immi.gov.au/	https://www.immi.gov.au/	Just a blocked font
+X	https://www.infrastructure.gov.au/	Department of Infrastructure and Regional Development	DepartmentofInfrastructureandRegionalDevelopment	www.infrastructure.gov.au	http://(?:www\.)www.infrastructure.gov.au/	https://www.infrastructure.gov.au/	
+X	https://www.itsanhonour.gov.au/	It's an Honour	ItsAnHonour	www.itsanhonour.gov.au	http://(?:www\.)www.itsanhonour.gov.au/	https://www.itsanhonour.gov.au/	
+X	https://www.livecorp.com.au/	LiveCorp	LiveCorp	www.livecorp.com.au	http://(?:www\.)www.livecorp.com.au/	https://www.livecorp.com.au/	
+MIX	https://www.livingsafetogether.gov.au/pages/home.aspx	Living safe together		www.livingsafetogether.gov.au	http://(?:www\.)www.livingsafetogether.gov.au/	https://www.livingsafetogether.gov.au/	
+X	https://www.mara.gov.au/	Office of the Migration Agents Registration Authority (MARA)	OfficeoftheMigrationAgentsRegistrationAuthority	www.mara.gov.au	http://(?:www\.)www.mara.gov.au/	https://www.mara.gov.au/	
+HTTP	https://www.medibank.com.au/	Medibank Private	MedibankPrivate	www.medibank.com.au	http://(?:www\.)www.medibank.com.au/	https://www.medibank.com.au/	
+X	https://www.medibankhealth.com.au/	Medibank Health Solutions	MedibankHealthSolutions	www.medibankhealth.com.au	http://(?:www\.)www.medibankhealth.com.au/	https://www.medibankhealth.com.au/	
+X	https://www.militarysuper.gov.au/	Military Super	MilitarySuper	www.militarysuper.gov.au	http://(?:www\.)www.militarysuper.gov.au/	https://www.militarysuper.gov.au/	
+X	https://www.mindhealthconnect.org.au/	Mindhealthconnect	Mindhealthconnect	www.mindhealthconnect.org.au	http://(?:www\.)www.mindhealthconnect.org.au/	https://www.mindhealthconnect.org.au/	
+X	https://www.mla.com.au/	Meat and Livestock Australia	MeatandLivestockAustralia	www.mla.com.au	http://(?:www\.)www.mla.com.au/	https://www.mla.com.au/	
+HTTP	https://www.myagedcare.gov.au/	My Aged Care	MyAgedCare	www.myagedcare.gov.au	http://(?:www\.)www.myagedcare.gov.au/	https://www.myagedcare.gov.au/	
+X	https://www.nationalcapital.gov.au/	National Capital Authority (NCA)	NationalCapitalAuthorityNCA	www.nationalcapital.gov.au	http://(?:www\.)www.nationalcapital.gov.au/	https://www.nationalcapital.gov.au/	
+X	https://www.navy.gov.au/	Royal Australian Navy	RoyalAustralianNavy	www.navy.gov.au	http://(?:www\.)www.navy.gov.au/	https://www.navy.gov.au/	
+HTTP	https://www.nbnco.com.au/	NBN Co Limited	NBNCoLimited	www.nbnco.com.au	http://(?:www\.)www.nbnco.com.au/	https://www.nbnco.com.au/	
+HTTP	https://www.ndlerf.gov.au/	National Drug Law Enforcement Research Fund	NationalDrugLawEnforcementResearchFund	www.ndlerf.gov.au	http://(?:www\.)www.ndlerf.gov.au/	https://www.ndlerf.gov.au/	
+X	https://www.neaf.gov.au/	National Ethics Application Form	NationalEthicsApplicationForm	www.neaf.gov.au	http://(?:www\.)www.neaf.gov.au/	https://www.neaf.gov.au/	
+DUPE	https://www.nehta.gov.au/	eHealth - general information		www.nehta.gov.au	http://(?:www\.)www.nehta.gov.au/	https://www.nehta.gov.au/	
+X	https://www.nehta.gov.au/	National E-Health Transition Authority	NationalE-HealthTransitionAuthority	www.nehta.gov.au	http://(?:www\.)www.nehta.gov.au/	https://www.nehta.gov.au/	
+X	https://www.nhmrc.gov.au/	National Health and Medical Research Council (NHMRC)	NationalHealthandMedicalResearchCouncilNHMRC	www.nhmrc.gov.au	http://(?:www\.)www.nhmrc.gov.au/	https://www.nhmrc.gov.au/	
+DUPE	https://www.nhmrc.gov.au/nics/	National Institute of Clinical Studies	NationalInstituteofClinicalStudies	www.nhmrc.gov.au	http://(?:www\.)www.nhmrc.gov.au/	https://www.nhmrc.gov.au/	
+X	https://www.nla.gov.au/	National Library of Australia	NationalLibraryofAustralia	www.nla.gov.au	http://(?:www\.)www.nla.gov.au/	https://www.nla.gov.au/	
+DUPE	https://www.nma.gov.au/primeministers	Prime Ministers of Australia		www.nma.gov.au	http://(?:www\.)www.nma.gov.au/	https://www.nma.gov.au/	
+HTTP	https://www.nma.gov.au/	National Museum of Australia (NMA)		www.nma.gov.au	http://(?:www\.)www.nma.gov.au/	https://www.nma.gov.au/	
+MIX	https://www.nrv.gov.au/	Nutrient Reference Values	NutrientReferenceValues	www.nrv.gov.au	http://(?:www\.)www.nrv.gov.au/	https://www.nrv.gov.au/	
+HTTP	https://www.nss.gov.au/	National Statistical Service	NationalStatisticalService	www.nss.gov.au	http://(?:www\.)www.nss.gov.au/	https://www.nss.gov.au/	
+HTTP	https://www.ntc.gov.au/	National Transport Commission	NationalTransportCommission	www.ntc.gov.au	http://(?:www\.)www.ntc.gov.au/	https://www.ntc.gov.au/	
+X	https://www.ona.gov.au/	Office of National Assessments (ONA)	OfficeofNationalAssessments	www.ona.gov.au	http://(?:www\.)www.ona.gov.au/	https://www.ona.gov.au/	
+X	https://www.onsecure.gov.au/	OnSecure	OnSecure	www.onsecure.gov.au	http://(?:www\.)www.onsecure.gov.au/	https://www.onsecure.gov.au/	
+X	https://www.opc.gov.au/	Office of Parliamentary Counsel (OPC)	OfficeofParliamentaryCounsel	www.opc.gov.au	http://(?:www\.)www.opc.gov.au/	https://www.opc.gov.au/	
+X	https://www.orao.dfat.gov.au/	Online Registration for Australian Overseas	DFAT	www.orao.dfat.gov.au	http://(?:www\.)www.orao.dfat.gov.au/	https://www.orao.dfat.gov.au/	
+X	https://www.passports.gov.au/	Australian Passport Office	AustralianPassportOffice	www.passports.gov.au	http://(?:www\.)www.passports.gov.au/	https://www.passports.gov.au/	
+MIX	https://www.pm.gov.au/	Prime Minister of Australia	PrimeMinisterofAustralia	www.pm.gov.au	http://(?:www\.)www.pm.gov.au/	https://www.pm.gov.au/	
+X	https://www.portrait.gov.au/	National Portrait Gallery	NationalPortraitGallery	www.portrait.gov.au	http://(?:www\.)www.portrait.gov.au/	https://www.portrait.gov.au/	
+MIX	https://www.productsafety.gov.au/	Product Safety Australia	ProductSafetyAustralia	www.productsafety.gov.au	http://(?:www\.)www.productsafety.gov.au/	https://www.productsafety.gov.au/	
+X	https://www.psmprogram.gov.au/	Public Sector Management (PSM) Program	PublicSectorManagementProgram	www.psmprogram.gov.au	http://(?:www\.)www.psmprogram.gov.au/	https://www.psmprogram.gov.au/	
+X	https://www.pss.gov.au/	Public Sector Superannuation Scheme (PSS)	PublicSectorSuperannuationScheme	www.pss.gov.au	http://(?:www\.)www.pss.gov.au/	https://www.pss.gov.au/	
+X	https://www.pssap.gov.au/	Public Sector Superannuation Accumulation Plan (PSSAP)	PublicSectorSuperannuationAccumulationPlan	www.pssap.gov.au	http://(?:www\.)www.pssap.gov.au/	https://www.pssap.gov.au/	
+DUPE	https://www.questacon.edu.au/qtlc	Questacon Technology Learning Centre (QTLC)		www.questacon.edu.au	http://(?:www\.)www.questacon.edu.au/	https://www.questacon.edu.au/	
+X	https://www.questacon.edu.au/	Questacon	Questacon	www.questacon.edu.au	http://(?:www\.)www.questacon.edu.au/	https://www.questacon.edu.au/	
+X	https://www.recalls.gov.au/	Product Safety Recalls Australia	ProductSafetyRecallsAustralia	www.recalls.gov.au	http://(?:www\.)www.recalls.gov.au/	https://www.recalls.gov.au/	
+X	https://www.rec-registry.gov.au/	REC Registry	RECRegistry	www.rec-registry.gov.au	http://(?:www\.)www.rec-registry.gov.au/	https://www.rec-registry.gov.au/	
+HTTP	https://www.sbr.gov.au/	Standard Business Reporting (SBR)	StandardBusinessReportingSBR	www.sbr.gov.au	http://(?:www\.)www.sbr.gov.au/	https://www.sbr.gov.au/	
+HTTP	https://www.scamwatch.gov.au/	Scamwatch	Scamwatch	www.scamwatch.gov.au	http://(?:www\.)www.scamwatch.gov.au/	https://www.scamwatch.gov.au/	
+HTTP	https://www.screenaustralia.gov.au/	Screen Australia	ScreenAustralia	www.screenaustralia.gov.au	http://(?:www\.)www.screenaustralia.gov.au/	https://www.screenaustralia.gov.au/	
+X	https://www.sct.gov.au/	Superannuation Complaints Tribunal (SCT)	SuperannuationComplaintsTribunalSCT	www.sct.gov.au	http://(?:www\.)www.sct.gov.au/	https://www.sct.gov.au/	
+MIX	https://www.smartraveller.gov.au/	Smartraveller	Smartraveller	www.smartraveller.gov.au	http://(?:www\.)www.smartraveller.gov.au/	https://www.smartraveller.gov.au/	
+X	https://www.staysmartonline.gov.au/	Stay Smart Online	StaySmartOnline	www.staysmartonline.gov.au	http://(?:www\.)www.staysmartonline.gov.au/	https://www.staysmartonline.gov.au/	
+X	https://www.studyinaustralia.gov.au/	Study in Australia	StudyinAustralia	www.studyinaustralia.gov.au	http://(?:www\.)www.studyinaustralia.gov.au/	https://www.studyinaustralia.gov.au/	
+500	https://www.stylefile.com.au/	Stylefile - Australian Design Showcase	Stylefile-AustralianDesignShowcase	www.stylefile.com.au	http://(?:www\.)www.stylefile.com.au/	https://www.stylefile.com.au/	
+X	https://www.telework.gov.au/	Telework (.gov.au)	TeleworkGovAu	www.telework.gov.au	http://(?:www\.)www.telework.gov.au/	https://www.telework.gov.au/	
+MIX	https://www.tga.gov.au/	Therapeutic Goods Administration (TGA)	TherapeuticGoodsAdministration	www.tga.gov.au	http://(?:www\.)www.tga.gov.au/	https://www.tga.gov.au/	
+X	https://www.traveldoctor.com.au/	Travel Doctor (travellers medical and vaccination centre)	TravelDoctortravellersmedicalandvaccinationcentre	www.traveldoctor.com.au	http://(?:www\.)www.traveldoctor.com.au/	https://www.traveldoctor.com.au/	
+X	https://www.wgea.gov.au/	Workplace Gender Equality Agency (WGEA)	WorkplaceGenderEqualityAgency	www.wgea.gov.au	http://(?:www\.)www.wgea.gov.au/	https://www.wgea.gov.au/	
+X	https://www.wineaustralia.com/	Wine Australia Corporation	WineAustraliaCorporation	www.wineaustralia.com	http://(?:www\.)www.wineaustralia.com/	https://www.wineaustralia.com/	
+X	https://www.emknowledge.gov.au/	Australian Emergency Management Knowledge Hub	AustralianEmergencyManagement	www.emknowledge.gov.au	http://(?:www\.)emknowledge.gov.au	https://www.emknowledge.gov.au	
+X	https://www.auscert.org.au/	AusCERT	AusCERT	www.auscert.org.au	http://(?:www\.)auscert.org.au/	https://www.auscert.org.au/	
+X	https://my.gov.au/	myGov	myGov	my.gov.au	http://(?:www\.)my.gov.au/	https://my.gov.au/	
+X	https://archive.is	Archive.is	ArchiveIs	archive.is	http://(?:www\.)archive.is/	https://archive.is/	
+X	https://archive.today/	Archive.today	ArchiveToday	archive.today	http://(?:www\.)archive.today/	https://archive.today/

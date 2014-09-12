@@ -20,6 +20,10 @@ http://data.daff.gov.au/nifs/
 http://www.defence.gov.au/adc/
 http://www.defence.gov.au/adfa/
 http://www.defence.gov.au/adfwc/
+
+Watch Out for:
+(?:www\.)www.
+agencysearch.australia.gov.au
 </pre>
 	<table id="sites">
 	<thead>
@@ -42,13 +46,13 @@ http://www.defence.gov.au/adfwc/
 
 	            $("<td></td>").append(link).appendTo(row);
 	            $('<td class="rule"></td>').text(this.page_title).appendTo(row);
-	            filename = this.page_title.replace(/[^a-zA-Z0-9\-\_\.]/, '');
+	            filename = this.page_title.replace(/[^a-zA-Z0-9\-\_\.]/g, '');
 	            $('<td class="rule"></td>').text(filename).appendTo(row);
 	            $('<td class="rule"></td>').text(this.host).appendTo(row);
-	            from = 'http://(?:www\\.)' + host + '/';
-	            $('<td class="rule"></td>').text(to).appendTo(row);
-	            to = 'https://www.' + host + '/';
+	            from = 'http://(?:www\\.)' + this.host + '/';
 	            $('<td class="rule"></td>').text(from).appendTo(row);
+	            to = 'https://' + this.host + '/';
+	            $('<td class="rule"></td>').text(to).appendTo(row);
 	            //Append it
 	            $("table#sites > tbody:last").append(row);
 	        });
