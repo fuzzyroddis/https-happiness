@@ -12,9 +12,9 @@ if($filename)
 	{
 		$from = $rule->getAttribute("from");
 		$to = $rule->getAttribute("to");
-		if(preg_match($from, $to, $matches) === FALSE)
+		if(preg_match("%".$from."%", $to, $matches) === FALSE)
 		{
-			echo "FAILED: ".$rule."\n";
+			echo "FAILED: ".$doc->saveXML($rule)."\n";
 		}
 
 	}
