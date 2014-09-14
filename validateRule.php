@@ -12,7 +12,7 @@ if($filename)
 	{
 		$from = $rule->getAttribute("from");
 		$to = $rule->getAttribute("to");
-		if(preg_match("%".$from."%", $to, $matches) === FALSE)
+		if(preg_match("%".$from."%", $to, $matches) === FALSE) //I don't feel confortable with addslashes, I worry it might fix errors
 		{
 			echo "FAILED: ".$doc->saveXML($rule)."\n";
 		}
