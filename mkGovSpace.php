@@ -8,7 +8,7 @@ if ($handle)
     $i = 0;
     while (($line = fgets($handle)) !== false)
     {
-        if($i > 0)
+        if($i > 0) //skip header
         {
 			list($done, $url, $name, $filename, $host, $from, $to, $comments) = explode("\t",
 								str_replace(array("\r", "\n"), '', $line)

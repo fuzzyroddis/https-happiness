@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<ruleset name="Defence Force Retirement and Death Benefits Scheme (DFRDB)"><target host="dfrdb.gov.au"/><target host="*.dfrdb.gov.au"/><rule from="http://(?:www\.).dfrdb.gov.au/" to="https://www.dfrdb.gov.au/"/></ruleset>

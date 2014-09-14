@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<ruleset name="AusCERT"><target host="auscert.org.au"/><target host="*.auscert.org.au"/><rule from="http://(?:www\.)auscert.org.au/" to="https://www.auscert.org.au/"/></ruleset>

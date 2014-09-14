@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<ruleset name="Commonwealth Grants Commission (CGC)"><target host="cgc.gov.au"/><target host="*.cgc.gov.au"/><rule from="http://(?:www\.).cgc.gov.au/" to="https://www.cgc.gov.au/"/></ruleset>

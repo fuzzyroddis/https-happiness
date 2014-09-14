@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<ruleset name="Archive.today"><target host="archive.today"/><target host="*.archive.today"/><rule from="http://(?:www\.)archive.today/" to="https://archive.today/"/></ruleset>

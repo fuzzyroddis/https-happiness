@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<ruleset name="Clean Energy Regulator"><target host="ret.cleanenergyregulator.gov.au"/><target host="*.ret.cleanenergyregulator.gov.au"/><rule from="http://((?:www|ret)\.)?cleanenergyregulator.gov.au/" to="https://$1cleanenergyregulator.gov.au/"/></ruleset>

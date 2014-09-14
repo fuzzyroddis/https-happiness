@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<ruleset name="Australian Energy Regulator (AER)"><target host="aer.gov.au"/><target host="*.aer.gov.au"/><rule from="http://(?:www\.).aer.gov.au/" to="https://www.aer.gov.au/"/></ruleset>

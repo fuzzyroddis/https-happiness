@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<ruleset name="Australian Law Reform Commission (ALRC)"><target host="alrc.gov.au"/><target host="*.alrc.gov.au"/><rule from="http://(?:www\.).alrc.gov.au/" to="https://www.alrc.gov.au/"/></ruleset>
