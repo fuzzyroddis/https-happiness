@@ -1,2 +1,0 @@
-<?xml version="1.0"?>
-<ruleset name="Public Sector Superannuation Scheme (PSS)"><target host="pss.gov.au"/><target host="*.pss.gov.au"/><rule from="http://(?:www\.).pss.gov.au/" to="https://www.pss.gov.au/"/></ruleset>

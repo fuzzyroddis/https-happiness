@@ -1,2 +1,0 @@
-<?xml version="1.0"?>
-<ruleset name="&quot;Bureau of Infrastructure, Transport and Regional Economics&quot;"><target host="bitre.gov.au"/><target host="*.bitre.gov.au"/><rule from="http://(?:www\.).bitre.gov.au/" to="https://www.bitre.gov.au/"/></ruleset>

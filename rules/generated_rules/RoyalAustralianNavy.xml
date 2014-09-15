@@ -1,2 +1,0 @@
-<?xml version="1.0"?>
-<ruleset name="Royal Australian Navy"><target host="navy.gov.au"/><target host="*.navy.gov.au"/><rule from="http://(?:www\.).navy.gov.au/" to="https://www.navy.gov.au/"/></ruleset>

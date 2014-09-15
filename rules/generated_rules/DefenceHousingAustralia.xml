@@ -1,2 +1,0 @@
-<?xml version="1.0"?>
-<ruleset name="Defence Housing Australia (DHA)"><target host="dha.gov.au"/><target host="*.dha.gov.au"/><rule from="http://(?:www\.).dha.gov.au/" to="https://www.dha.gov.au/"/></ruleset>

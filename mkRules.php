@@ -12,8 +12,7 @@ if($handle)
     {
         if($i > 0) //skip header
         {
-			list($done, $url, $name, $filename, $host, $from, $to, $comments) = explode("\t",
-								str_replace(array("\r", "\n"), '', $line)
+			list($done, $url, $name, $filename, $host, $from, $to, $comments) = str_getcsv($line, "\t");
 							);
 			if($done === 'X')
 			{

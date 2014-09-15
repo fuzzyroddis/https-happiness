@@ -1,2 +1,0 @@
-<?xml version="1.0"?>
-<ruleset name="Governor-General of the Commonwealth of Australia"><target host="gg.gov.au"/><target host="*.gg.gov.au"/><rule from="http://(?:www\.).gg.gov.au/" to="https://www.gg.gov.au/"/></ruleset>
