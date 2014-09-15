@@ -3,6 +3,8 @@ $filename = ($argv[1]) ? $argv[1] : 'scribble.txt';
 
 $handle = fopen($filename, "r");
 
+$rule_template = file_get_contents("rule_template.xml");
+
 if($handle)
 {
     $i = 0;
@@ -18,11 +20,6 @@ if($handle)
 				if($comments)
                     $comments = "<!-- ".str_replace('>', '', $comments)." -->\n";
 
-                $xml = new DOMDocument();
-
-                $rule_set = $xml->createElement("ruleset");
-                $rule_set->setAttribute("name", $name);
-
                 //Fix from rule
                 $from = str_replace('(?:www\.)www', '(?:www\.)', $from);
                 $from = str_replace('(www\.)www', '(www\.)', $from);
@@ -32,27 +29,24 @@ if($handle)
 
                 $host = preg_replace('/^www\./', '', $host);
                 
-                //Targets
-                $targetApex = $xml->createElement("target");
-                    $targetApex->setAttribute("host", $host);
-                $rule_set->appendChild($targetApex);
+                //Turn into XML
+                $xml = str_replace(array('_NAME_', '_HOSTAPEX_', '_HOSTALL_', '_FROM_', '_TO_'),
+                				   array($name, $host, '*.'.$host, $from, $to),
+                				   $rule_template); //I orignallly used DOM, this is an unsafe way, but gives nicer output.
 
-                $targetAll = $xml->createElement("target");
-                    $targetAll->setAttribute("host", '*.'.$host);
-                $rule_set->appendChild($targetAll);
-                //Rule
-                $rule = $xml->createElement("rule");
-                    $rule->setAttribute("from", $from);
-                    $rule->setAttribute("to", $to);
-                $rule_set->appendChild($rule);
+                $filename = "rules/".preg_replace('/[^a-zA-Z0-9\-\_\.]/', '', $filename).'.xml';
 
-                //Add
-                $xml->appendChild($rule_set);
+                if(file_exists($filename))
+                {
+                	$filename .= '_'.uniqid();
+
+                	echo "Already exists, creating: ".$filename."\n";
+                }
 
                 file_put_contents(
-                    "rules/".preg_replace('/[^a-zA-Z0-9\-\_\.]/', '', $filename).'.xml',
+                    $filename,
                     $comments.
-                    $xml->saveXML()
+                    $xml
                 );
 			}
         }

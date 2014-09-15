@@ -7,7 +7,7 @@ Setup
 --------
 
 * I used [Digital Ocean](https://www.digitalocean.com/?refcode=2f68bde48289)'s 512mb droplet with Ubuntu 14.04 x64.
-* `apt-get install nodejs npm`
+* `apt-get install nodejs npm php5`
 * `npm install cheerio request`
 
 Production Quality?

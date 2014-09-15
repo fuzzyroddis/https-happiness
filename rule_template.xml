@@ -1,0 +1,7 @@
+<ruleset name="_NAME_">
+	<target host="_HOSTAPEX_" />
+	<target host="_HOSTALL_" />
+
+	<rule from="_FROM_"
+		to="_TO_" />
+</ruleset>
