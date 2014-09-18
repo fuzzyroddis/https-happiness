@@ -19,6 +19,13 @@ if($handle)
 				if($comments)
                     $comments = "<!-- ".str_replace('>', '', $comments)." -->\n";
 
+                //Fix Name
+                $name = preg_replace('%\s?&[a-z0-9];\s?%', '', $name);
+                $name = preg_replace('%\s\(.+?\)\s*$%', '', $name);
+
+                //Fix Filename
+                $filename = preg_replace('%[a-z][A-Z]{2,}$%', '', $filename);
+
                 //Fix from rule
                 $from = str_replace('(?:www\.)www', '(?:www\.)', $from);
                 $from = str_replace('(www\.)www', '(www\.)', $from);
