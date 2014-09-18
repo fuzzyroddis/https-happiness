@@ -1,4 +1,4 @@
-<ruleset name="healthdirect Australia">
+<ruleset name="Healthdirect Australia">
 	<target host="healthdirect.gov.au" />
 	<target host="*.healthdirect.gov.au" />
 

@@ -1,4 +1,4 @@
-<ruleset name="Australian plants, botany and horticulture">
+<ruleset name="Australian Plants, Botany and Horticulture">
 	<target host="anbg.gov.au" />
 	<target host="*.anbg.gov.au" />
 

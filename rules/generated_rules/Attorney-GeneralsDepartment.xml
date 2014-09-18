@@ -1,4 +1,4 @@
-<ruleset name="Attorney-General&apos;s Department">
+<ruleset name="Attorney-General's Department">
 	<target host="ag.gov.au" />
 	<target host="*.ag.gov.au" />
 

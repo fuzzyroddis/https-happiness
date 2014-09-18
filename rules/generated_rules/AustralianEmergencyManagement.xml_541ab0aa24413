@@ -1,7 +1,0 @@
-<ruleset name="Australian Emergency Management Knowledge Hub">
-	<target host="emknowledge.gov.au" />
-	<target host="*.emknowledge.gov.au" />
-
-	<rule from="^http://(?:www\.)emknowledge\.gov\.au"
-		to="https://www.emknowledge.gov.au" />
-</ruleset>

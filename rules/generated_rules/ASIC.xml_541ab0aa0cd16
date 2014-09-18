@@ -1,7 +1,0 @@
-<ruleset name="Australian Securities and Investments Commission">
-	<target host="asic.gov.au" />
-	<target host="*.asic.gov.au" />
-
-	<rule from="^http://(?:www\.)\.asic\.gov\.au/"
-		to="https://www.asic.gov.au/" />
-</ruleset>
