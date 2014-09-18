@@ -19,12 +19,13 @@ if($handle)
 				if($comments)
                     $comments = "<!-- ".str_replace('>', '', $comments)." -->\n";
 
-                //Fix Name
-                $name = preg_replace('%\s?&[a-z0-9];\s?%', '', $name);
-                $name = preg_replace('%\s\(.+?\)\s*$%', '', $name);
-
                 //Fix Filename
-                $filename = preg_replace('%[a-z][A-Z]{2,}$%', '', $filename);
+                if(preg_match('%\s\(.+?\)\s*$%')) //Remove that annoying abbreviation  (but only if there is one)
+                	$filename = preg_replace('%([a-z])[A-Z]{2,}$%', '$1', $filename);
+
+                //Fix Name
+                $name = preg_replace('%\s?&[a-z0-9];\s?%', '', $name); //remove those pesky html entities
+                $name = preg_replace('%\s\(.+?\)\s*$%', '', $name); //Some names are in the format Agency of Something (AoS)
 
                 //Fix from rule
                 $from = str_replace('(?:www\.)www', '(?:www\.)', $from);
