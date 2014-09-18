@@ -20,7 +20,7 @@ if($handle)
                     $comments = "<!-- ".str_replace('>', '', $comments)." -->\n";
 
                 //Fix Filename
-                if(preg_match('%\s\(.+?\)\s*$%')) //Remove that annoying abbreviation  (but only if there is one)
+                if(preg_match('%\s\(.+?\)\s*$%', $name)) //Remove that annoying abbreviation  (but only if there is one)
                 	$filename = preg_replace('%([a-z])[A-Z]{2,}$%', '$1', $filename);
 
                 //Fix Name
