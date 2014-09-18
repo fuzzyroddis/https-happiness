@@ -1,0 +1,7 @@
+<ruleset name="Budd:e Cybersecurity Builder">
+	<target host="budd-e.staysmartonline.gov.au" />
+	<target host="*.budd-e.staysmartonline.gov.au" />
+
+	<rule from="^http://(?:www\.)budd-e\.staysmartonline\.gov\.au/"
+		to="https://budd-e.staysmartonline.gov.au/" />
+</ruleset>

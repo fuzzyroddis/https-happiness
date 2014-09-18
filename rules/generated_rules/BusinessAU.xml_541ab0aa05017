@@ -1,0 +1,7 @@
+<ruleset name="BusinessAU">
+	<target host="abr.business.gov.au" />
+	<target host="*.abr.business.gov.au" />
+
+	<rule from="^http://(?:www\.)abr\.business\.gov\.au/"
+		to="https://abr.business.gov.au/" />
+</ruleset>

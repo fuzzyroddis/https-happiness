@@ -1,0 +1,7 @@
+<ruleset name="BusinessAU">
+	<target host="ablis.business.gov.au" />
+	<target host="*.ablis.business.gov.au" />
+
+	<rule from="^http://(?:www\.)ablis\.business\.gov\.au/"
+		to="https://ablis.business.gov.au/" />
+</ruleset>

@@ -1,0 +1,7 @@
+<ruleset name="Insolvency notices">
+	<target host="insolvencynotices.asic.gov.au" />
+	<target host="*.insolvencynotices.asic.gov.au" />
+
+	<rule from="^http://(?:www\.)insolvencynotices\.asic\.gov\.au/"
+		to="https://insolvencynotices.asic.gov.au/" />
+</ruleset>

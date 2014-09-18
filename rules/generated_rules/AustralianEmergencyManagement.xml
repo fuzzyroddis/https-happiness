@@ -1,0 +1,7 @@
+<ruleset name="Australian Emergency Management">
+	<target host="em.gov.au" />
+	<target host="*.em.gov.au" />
+
+	<rule from="^http://(?:www\.)\.em\.gov\.au/"
+		to="https://www.em.gov.au/" />
+</ruleset>
