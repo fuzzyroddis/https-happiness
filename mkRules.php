@@ -25,11 +25,18 @@ if($handle)
 
                 //Fix Name
                 $name = preg_replace('%\s?&[a-z0-9];\s?%', '', $name); //remove those pesky html entities
-                $name = preg_replace('%\s\(.+?\)\s*$%', '', $name); //Some names are in the format Agency of Something (AoS)
+                $name = preg_replace('%\s\(.+?\)\s*$%', '', $name); //Some names are in the format "Agency of Something (AoS)"
 
                 //Fix from rule
                 $from = str_replace('(?:www\.)www', '(?:www\.)', $from);
                 $from = str_replace('(www\.)www', '(www\.)', $from);
+
+                //No carrot at start, lets fix that
+                if($from{0} !== '^')
+                	$from = '^'.$from;
+
+                //Forgot to escape dots
+                $from = preg_replace('%([^\\\\])\.%', '$1\.', $from);
 
                 //Fix to rule
                 $to = str_replace('www.www.', 'www.', $to);
