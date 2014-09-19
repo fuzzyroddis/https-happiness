@@ -28,8 +28,8 @@ if($handle)
                 $name = preg_replace('%\s\(.+?\)\s*$%', '', $name); //Some names are in the format "Agency of Something (AoS)"
 
                 //Fix from rule
-                $from = str_replace('(?:www\.)www', '(?:www\.)', $from);
-                $from = str_replace('(www\.)www', '(www\.)', $from);
+                $from = str_replace('(?:www\.)www\.', '(?:www\.)', $from);
+                $from = str_replace('(www\.)www\.', '(www\.)', $from);
 
                 //No carrot at start, lets fix that
                 if($from{0} !== '^')

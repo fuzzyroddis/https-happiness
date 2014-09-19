@@ -11,6 +11,10 @@ if($filename)
 	foreach($rules as $rule)
 	{
 		$from = $rule->getAttribute("from");
+		if(strpos($from, "\.)\.") !== false) //http://(?:www\.)\.example\.com
+		{
+			echo "FAILED (extra dot): ".$doc->saveXML($rule)."\n";
+		}
 		$to = $rule->getAttribute("to");
 		if(preg_match("%".$from."%", $to, $matches) === FALSE) //I don't feel confortable with addslashes, I worry it might fix errors
 		{
