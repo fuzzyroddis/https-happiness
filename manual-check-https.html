@@ -49,7 +49,7 @@ agencysearch.australia.gov.au
 	            filename = this.page_title.replace(/[^a-zA-Z0-9\-\_\.]/g, '');
 	            $('<td class="rule"></td>').text(filename).appendTo(row);
 	            $('<td class="rule"></td>').text(this.host).appendTo(row);
-	            from = 'http://(?:www\\.)' + this.host + '/';
+	            from = 'http://(?:www\\.)?' + this.host + '/';
 	            $('<td class="rule"></td>').text(from).appendTo(row);
 	            to = 'https://' + this.host + '/';
 	            $('<td class="rule"></td>').text(to).appendTo(row);
