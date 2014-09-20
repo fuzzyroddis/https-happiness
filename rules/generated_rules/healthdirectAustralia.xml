@@ -2,6 +2,6 @@
 	<target host="healthdirect.gov.au" />
 	<target host="*.healthdirect.gov.au" />
 
-	<rule from="^http://(?:www\.)\.healthdirect\.gov\.au/"
+	<rule from="^http://(?:www\.)?healthdirect\.gov\.au/"
 		to="https://www.healthdirect.gov.au/" />
 </ruleset>

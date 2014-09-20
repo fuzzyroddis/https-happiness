@@ -2,6 +2,6 @@
 	<target host="aacqa.gov.au" />
 	<target host="*.aacqa.gov.au" />
 
-	<rule from="^http://(?:www\.)\.aacqa\.gov\.au/"
+	<rule from="^http://(?:www\.)?aacqa\.gov\.au/"
 		to="https://www.aacqa.gov.au/" />
 </ruleset>

@@ -2,6 +2,6 @@
 	<target host="schools.aemi.edu.au" />
 	<target host="*.schools.aemi.edu.au" />
 
-	<rule from="^http://(?:www\.)schools\.aemi\.edu\.au/"
+	<rule from="^http://(?:www\.)?schools\.aemi\.edu\.au/"
 		to="https://schools.aemi.edu.au/" />
 </ruleset>

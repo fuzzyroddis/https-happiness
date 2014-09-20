@@ -2,6 +2,6 @@
 	<target host="hrep.nhmrc.gov.au" />
 	<target host="*.hrep.nhmrc.gov.au" />
 
-	<rule from="^http://(?:www\.)hrep\.nhmrc\.gov\.au/"
+	<rule from="^http://(?:www\.)?hrep\.nhmrc\.gov\.au/"
 		to="https://hrep.nhmrc.gov.au/" />
 </ruleset>

@@ -2,6 +2,6 @@
 	<target host="mhsa.aihw.gov.au" />
 	<target host="*.mhsa.aihw.gov.au" />
 
-	<rule from="^http://(?:www\.)mhsa\.aihw\.gov\.au/"
+	<rule from="^http://(?:www\.)?mhsa\.aihw\.gov\.au/"
 		to="https://mhsa.aihw.gov.au/" />
 </ruleset>

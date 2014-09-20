@@ -2,6 +2,6 @@
 	<target host="energymadeeasy.gov.au" />
 	<target host="*.energymadeeasy.gov.au" />
 
-	<rule from="^http://(?:www\.)\.energymadeeasy\.gov\.au/"
+	<rule from="^http://(?:www\.)?energymadeeasy\.gov\.au/"
 		to="https://www.energymadeeasy.gov.au/" />
 </ruleset>

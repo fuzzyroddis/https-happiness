@@ -2,6 +2,6 @@
 	<target host="donotcall.gov.au" />
 	<target host="*.donotcall.gov.au" />
 
-	<rule from="^http://(?:www\.)\.donotcall\.gov\.au/"
+	<rule from="^http://(?:www\.)?donotcall\.gov\.au/"
 		to="https://www.donotcall.gov.au/" />
 </ruleset>

@@ -2,6 +2,6 @@
 	<target host="dpmc.gov.au" />
 	<target host="*.dpmc.gov.au" />
 
-	<rule from="^http://(?:www\.)\.dpmc\.gov\.au/"
+	<rule from="^http://(?:www\.)?dpmc\.gov\.au/"
 		to="https://www.dpmc.gov.au/" />
 </ruleset>

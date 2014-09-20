@@ -2,6 +2,6 @@
 	<target host="aer.gov.au" />
 	<target host="*.aer.gov.au" />
 
-	<rule from="^http://(?:www\.)\.aer\.gov\.au/"
+	<rule from="^http://(?:www\.)?aer\.gov\.au/"
 		to="https://www.aer.gov.au/" />
 </ruleset>

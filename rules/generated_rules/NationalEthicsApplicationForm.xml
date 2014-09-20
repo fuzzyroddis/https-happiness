@@ -2,6 +2,6 @@
 	<target host="neaf.gov.au" />
 	<target host="*.neaf.gov.au" />
 
-	<rule from="^http://(?:www\.)\.neaf\.gov\.au/"
+	<rule from="^http://(?:www\.)?neaf\.gov\.au/"
 		to="https://www.neaf.gov.au/" />
 </ruleset>

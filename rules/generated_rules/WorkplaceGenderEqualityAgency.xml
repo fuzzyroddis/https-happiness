@@ -2,6 +2,6 @@
 	<target host="wgea.gov.au" />
 	<target host="*.wgea.gov.au" />
 
-	<rule from="^http://(?:www\.)\.wgea\.gov\.au/"
+	<rule from="^http://(?:www\.)?wgea\.gov\.au/"
 		to="https://www.wgea.gov.au/" />
 </ruleset>

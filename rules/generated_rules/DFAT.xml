@@ -2,6 +2,6 @@
 	<target host="orao.dfat.gov.au" />
 	<target host="*.orao.dfat.gov.au" />
 
-	<rule from="^http://(?:www\.)\.orao\.dfat\.gov\.au/"
+	<rule from="^http://(?:www\.)?orao\.dfat\.gov\.au/"
 		to="https://www.orao.dfat.gov.au/" />
 </ruleset>

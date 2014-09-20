@@ -2,6 +2,6 @@
 	<target host="education.gov.au" />
 	<target host="*.education.gov.au" />
 
-	<rule from="^http://(?:www\.)\.education\.gov\.au/"
+	<rule from="^http://(?:www\.)?education\.gov\.au/"
 		to="https://www.education.gov.au/" />
 </ruleset>

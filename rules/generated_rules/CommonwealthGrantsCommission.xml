@@ -2,6 +2,6 @@
 	<target host="cgc.gov.au" />
 	<target host="*.cgc.gov.au" />
 
-	<rule from="^http://(?:www\.)\.cgc\.gov\.au/"
+	<rule from="^http://(?:www\.)?cgc\.gov\.au/"
 		to="https://www.cgc.gov.au/" />
 </ruleset>

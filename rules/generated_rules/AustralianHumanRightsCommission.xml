@@ -2,6 +2,6 @@
 	<target host="humanrights.gov.au" />
 	<target host="*.humanrights.gov.au" />
 
-	<rule from="^http://(?:www\.)\.humanrights\.gov\.au/"
+	<rule from="^http://(?:www\.)?humanrights\.gov\.au/"
 		to="https://www.humanrights.gov.au/" />
 </ruleset>

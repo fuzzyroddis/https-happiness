@@ -2,6 +2,6 @@
 	<target host="govdex.gov.au" />
 	<target host="*.govdex.gov.au" />
 
-	<rule from="^http://(?:www\.)\.govdex\.gov\.au/"
+	<rule from="^http://(?:www\.)?govdex\.gov\.au/"
 		to="https://www.govdex.gov.au/" />
 </ruleset>

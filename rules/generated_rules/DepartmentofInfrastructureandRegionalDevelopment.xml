@@ -2,6 +2,6 @@
 	<target host="infrastructure.gov.au" />
 	<target host="*.infrastructure.gov.au" />
 
-	<rule from="^http://(?:www\.)\.infrastructure\.gov\.au/"
+	<rule from="^http://(?:www\.)?infrastructure\.gov\.au/"
 		to="https://www.infrastructure.gov.au/" />
 </ruleset>

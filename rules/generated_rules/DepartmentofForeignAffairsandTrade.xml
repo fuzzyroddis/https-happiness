@@ -2,6 +2,6 @@
 	<target host="dfat.gov.au" />
 	<target host="*.dfat.gov.au" />
 
-	<rule from="^http://(?:www\.)\.dfat\.gov\.au/"
+	<rule from="^http://(?:www\.)?dfat\.gov\.au/"
 		to="https://www.dfat.gov.au/" />
 </ruleset>

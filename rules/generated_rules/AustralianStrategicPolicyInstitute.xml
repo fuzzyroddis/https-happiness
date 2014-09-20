@@ -2,6 +2,6 @@
 	<target host="aspi.org.au" />
 	<target host="*.aspi.org.au" />
 
-	<rule from="^http://(?:www\.)\.aspi\.org\.au/"
+	<rule from="^http://(?:www\.)?aspi\.org\.au/"
 		to="https://www.aspi.org.au/" />
 </ruleset>

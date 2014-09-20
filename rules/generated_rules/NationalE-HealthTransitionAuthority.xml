@@ -2,6 +2,6 @@
 	<target host="nehta.gov.au" />
 	<target host="*.nehta.gov.au" />
 
-	<rule from="^http://(?:www\.)\.nehta\.gov\.au/"
+	<rule from="^http://(?:www\.)?nehta\.gov\.au/"
 		to="https://www.nehta.gov.au/" />
 </ruleset>

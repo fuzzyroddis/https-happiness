@@ -2,6 +2,6 @@
 	<target host="militarysuper.gov.au" />
 	<target host="*.militarysuper.gov.au" />
 
-	<rule from="^http://(?:www\.)\.militarysuper\.gov\.au/"
+	<rule from="^http://(?:www\.)?militarysuper\.gov\.au/"
 		to="https://www.militarysuper.gov.au/" />
 </ruleset>

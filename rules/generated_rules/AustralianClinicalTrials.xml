@@ -2,6 +2,6 @@
 	<target host="australianclinicaltrials.gov.au" />
 	<target host="*.australianclinicaltrials.gov.au" />
 
-	<rule from="^http://(?:www\.)\.australianclinicaltrials\.gov\.au/"
+	<rule from="^http://(?:www\.)?australianclinicaltrials\.gov\.au/"
 		to="https://www.australianclinicaltrials.gov.au/" />
 </ruleset>

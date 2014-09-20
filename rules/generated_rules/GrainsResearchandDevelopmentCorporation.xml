@@ -2,6 +2,6 @@
 	<target host="grdc.com.au" />
 	<target host="*.grdc.com.au" />
 
-	<rule from="^http://(?:www\.)\.grdc\.com\.au/"
+	<rule from="^http://(?:www\.)?grdc\.com\.au/"
 		to="https://www.grdc.com.au/" />
 </ruleset>

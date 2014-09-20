@@ -2,6 +2,6 @@
 	<target host="css.gov.au" />
 	<target host="*.css.gov.au" />
 
-	<rule from="^http://(?:www\.)\.css\.gov\.au/"
+	<rule from="^http://(?:www\.)?css\.gov\.au/"
 		to="https://www.css.gov.au/" />
 </ruleset>

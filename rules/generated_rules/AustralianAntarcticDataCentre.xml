@@ -2,6 +2,6 @@
 	<target host="data.aad.gov.au" />
 	<target host="*.data.aad.gov.au" />
 
-	<rule from="^http://(?:www\.)data\.aad\.gov\.au/"
+	<rule from="^http://(?:www\.)?data\.aad\.gov\.au/"
 		to="https://data.aad.gov.au/" />
 </ruleset>

@@ -2,6 +2,6 @@
 	<target host="learning.ausport.gov.au" />
 	<target host="*.learning.ausport.gov.au" />
 
-	<rule from="^http://(?:www\.)learning\.ausport\.gov\.au/"
+	<rule from="^http://(?:www\.)?learning\.ausport\.gov\.au/"
 		to="https://learning.ausport.gov.au/" />
 </ruleset>

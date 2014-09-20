@@ -2,6 +2,6 @@
 	<target host="ato.gov.au" />
 	<target host="*.ato.gov.au" />
 
-	<rule from="^http://(?:www\.)\.ato\.gov\.au/"
+	<rule from="^http://(?:www\.)?ato\.gov\.au/"
 		to="https://www.ato.gov.au/" />
 </ruleset>

@@ -2,6 +2,6 @@
 	<target host="livecorp.com.au" />
 	<target host="*.livecorp.com.au" />
 
-	<rule from="^http://(?:www\.)\.livecorp\.com\.au/"
+	<rule from="^http://(?:www\.)?livecorp\.com\.au/"
 		to="https://www.livecorp.com.au/" />
 </ruleset>

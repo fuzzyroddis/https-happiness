@@ -2,6 +2,6 @@
 	<target host="psmprogram.gov.au" />
 	<target host="*.psmprogram.gov.au" />
 
-	<rule from="^http://(?:www\.)\.psmprogram\.gov\.au/"
+	<rule from="^http://(?:www\.)?psmprogram\.gov\.au/"
 		to="https://www.psmprogram.gov.au/" />
 </ruleset>

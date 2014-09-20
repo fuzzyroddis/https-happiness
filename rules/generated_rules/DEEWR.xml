@@ -2,6 +2,6 @@
 	<target host="prisms.deewr.gov.au" />
 	<target host="*.prisms.deewr.gov.au" />
 
-	<rule from="^http://(?:www\.)prisms\.deewr\.gov\.au/"
+	<rule from="^http://(?:www\.)?prisms\.deewr\.gov\.au/"
 		to="https://prisms.deewr.gov.au/" />
 </ruleset>

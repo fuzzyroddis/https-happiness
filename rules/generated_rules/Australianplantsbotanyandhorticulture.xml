@@ -2,6 +2,6 @@
 	<target host="anbg.gov.au" />
 	<target host="*.anbg.gov.au" />
 
-	<rule from="^http://(?:www\.)\.anbg\.gov\.au/"
+	<rule from="^http://(?:www\.)?anbg\.gov\.au/"
 		to="https://www.anbg.gov.au/" />
 </ruleset>

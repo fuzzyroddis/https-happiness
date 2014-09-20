@@ -2,6 +2,6 @@
 	<target host="pssap.gov.au" />
 	<target host="*.pssap.gov.au" />
 
-	<rule from="^http://(?:www\.)\.pssap\.gov\.au/"
+	<rule from="^http://(?:www\.)?pssap\.gov\.au/"
 		to="https://www.pssap.gov.au/" />
 </ruleset>

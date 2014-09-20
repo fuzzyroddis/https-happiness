@@ -2,6 +2,6 @@
 	<target host="exportawards.gov.au" />
 	<target host="*.exportawards.gov.au" />
 
-	<rule from="^http://(?:www\.)\.exportawards\.gov\.au/"
+	<rule from="^http://(?:www\.)?exportawards\.gov\.au/"
 		to="https://www.exportawards.gov.au/" />
 </ruleset>

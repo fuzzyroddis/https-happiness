@@ -2,6 +2,6 @@
 	<target host="aedc.gov.au" />
 	<target host="*.aedc.gov.au" />
 
-	<rule from="^http://(?:www\.)\.aedc\.gov\.au/"
+	<rule from="^http://(?:www\.)?aedc\.gov\.au/"
 		to="https://www.aedc.gov.au/" />
 </ruleset>
