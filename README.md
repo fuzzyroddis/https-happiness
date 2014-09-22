@@ -3,6 +3,11 @@ https-happiness
 
 Goal is to add all Australian government sites to [HTTPS Everywhere](https://www.eff.org/https-everywhere).
 
+Status
+-------
+
+2/11 chunks merged with HTTPS Everywhere (Each chunk has 10 rules)
+
 Setup
 --------
 
