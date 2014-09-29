@@ -6,7 +6,8 @@ Goal is to add all Australian government sites to [HTTPS Everywhere](https://www
 Status
 -------
 
-9/11 chunks merged with HTTPS Everywhere (Each chunk has 10 rules)
+**DONE!**
+11/11 chunks merged with HTTPS Everywhere (Each chunk has 10 rules)
 
 Setup
 --------
