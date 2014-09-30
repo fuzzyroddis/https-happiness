@@ -1,7 +1,0 @@
-<ruleset name="APSjobs">
-	<target host="apsjobs.gov.au" />
-	<target host="*.apsjobs.gov.au" />
-
-	<rule from="^http://(?:www\.)?apsjobs\.gov\.au/"
-		to="https://www.apsjobs.gov.au/" />
-</ruleset>

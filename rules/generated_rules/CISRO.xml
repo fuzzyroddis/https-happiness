@@ -1,7 +1,0 @@
-<ruleset name="Australia Telescope Outreach and Education">
-	<target host="outreach.atnf.csiro.au" />
-	<target host="*.outreach.atnf.csiro.au" />
-
-	<rule from="^http://(?:www\.)?outreach\.atnf\.csiro\.au/"
-		to="https://outreach.atnf.csiro.au/" />
-</ruleset>
